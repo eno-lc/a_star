@@ -161,7 +161,7 @@ public class Visualizimi extends JPanel implements MouseListener, MouseMotionLis
                 nyjet[rreshti][kolona] = new Node(rreshti, kolona);
             }
         }
-        // getEdges
+       
         for (int rreshti = 0; rreshti < nyjet.length; rreshti++) {
             for (int kolona = 0; kolona < nyjet[rreshti].length; kolona++) {
                 nyjet[rreshti][kolona].merrSkajet(nyjet);
@@ -202,12 +202,6 @@ public class Visualizimi extends JPanel implements MouseListener, MouseMotionLis
             }
         }
 
-
-//        g2d.setColor(new Color(7,7,7));
-//        for (int rreshti = 0; rreshti < nyjet.length; rreshti++)
-//            g2d.drawLine(0, rreshti * gjatesia, 800, rreshti * gjatesia);
-//        for (int kolona = 0; kolona < nyjet[0].length; kolona++)
-//            g2d.drawLine(kolona * gjeresia, 0, kolona * gjeresia, 800);
     }
 
 
